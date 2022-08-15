@@ -1,0 +1,57 @@
+
+
+
+/* ======== Log in css Starts here ========*/
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+
+
+body {
+    background: #eee;
+  }
+  
+  .name {
+    color: rgb(52, 133, 255);
+  }
+  
+  .work {
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  .about span {
+    font-size: 13px;
+  }
+  
+  .v-profile {
+    color: rgb(52, 133, 255);
+    cursor: pointer;
+  }
+  
+  .box {
+    -webkit-box-shadow: 13px 12px 5px -10px rgba(196,194,196,0.72);
+    -moz-box-shadow: 13px 12px 5px -10px rgba(196,194,196,0.72);
+    box-shadow: 13px 12px 5px -10px rgba(196,194,196,0.72);
+  }
+  
+  .col-md-4 {
+    margin-top: 10px;
+  }
+
+
+  footer{
+    margin-top: 25px;
+  }
